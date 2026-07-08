@@ -94,6 +94,7 @@ export function ChatContainer() {
         },
         onError: (streamErr: string) => {
           setError(streamErr);
+          setIsLoading(false);
         },
         onDone: () => {
           setIsLoading(false);

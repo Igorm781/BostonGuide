@@ -61,7 +61,7 @@ export function ChatInput({
         className="w-full resize-none bg-transparent py-4 pl-4 pr-16 text-sm text-zinc-900 placeholder-zinc-400 focus:outline-hidden dark:text-zinc-50 dark:placeholder-zinc-500 max-h-[200px]"
       />
 
-      <div className="absolute right-3 bottom-3 flex items-center gap-2">
+      <div className="absolute right-3 bottom-3 flex items-center gap-2 z-10">
         <span className="hidden text-[10px] text-zinc-400 dark:text-zinc-500 sm:flex items-center gap-0.5">
           <span>Enter</span>
           <CornerDownLeft className="h-2.5 w-2.5" />
