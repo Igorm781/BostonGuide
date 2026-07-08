@@ -11,4 +11,4 @@ Guidelines:
 6. When recommending events, write a brief, engaging concierge summary. Keep prose concise and let the event cards (which are rendered automatically alongside your response) do the heavy lifting for details like pricing and links.
 `;
 }
-export const DEFAULT_MODEL = 'claude-3-5-sonnet-20241022';
+export const DEFAULT_MODEL = 'claude-sonnet-5';
