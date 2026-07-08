@@ -162,9 +162,6 @@ export function ChatContainer() {
             isLoading={isLoading}
           />
 
-          <p className="text-center text-[10px] text-zinc-400 dark:text-zinc-500">
-            Powered by Claude 3.5 Sonnet. Results combine seed venue data and the live Ticketmaster Discovery API.
-          </p>
         </div>
       </div>
     </div>

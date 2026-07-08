@@ -42,15 +42,16 @@ const EXAMPLE_PROMPTS: ExamplePrompt[] = [
 export function EmptyState({ onSelectPrompt }: EmptyStateProps) {
   return (
     <div className="flex flex-col items-center justify-center py-12 px-4 text-center max-w-2xl mx-auto my-auto">
-      <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-zinc-900 text-white dark:bg-zinc-50 dark:text-zinc-900 shadow-xl mb-6">
-        <Compass className="h-8 w-8 animate-spin-slow" />
+      <div className="glowing-orb-container">
+        <div className="glowing-orb-glow" />
+        <div className="glowing-orb" />
       </div>
 
-      <h1 className="text-4xl font-bold tracking-tight text-zinc-900 dark:text-zinc-50 mb-3 font-outfit">
-        Discover Boston Your Way
+      <h1 className="text-[54px] font-semibold tracking-tight text-zinc-900 dark:text-white mb-2 leading-none">
+        Hey Alex
       </h1>
-      <p className="text-base text-zinc-500 dark:text-zinc-400 mb-8 max-w-lg leading-relaxed">
-        I am your personal AI concierge. Ask me for concerts, museums, food festivals, outdoor runs, or wellness sessions around town.
+      <p className="text-[28px] font-light tracking-tight text-zinc-400 dark:text-zinc-400 mb-10 leading-normal">
+        what would you like to do?
       </p>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 w-full">
